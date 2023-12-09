@@ -3,10 +3,9 @@
 import React from "react";
 import Lottie from "lottie-react";
 import banner from "../../assets/images/photo/Untitled_design-removebg-preview.png";
-// import banner from "../../assets/images/nWv41CrOM3.json";
 import Typewriter from "typewriter-effect";
 import { BsArrowDownCircle } from "react-icons/bs";
-import Resume from "../../assets/images/Yeakub Resume.pdf";
+import Resume from "../../assets/images/photo/Mern-resume.pdf";
 import Wish from "../utility/Wish";
 import Scroll from "../utility/Scroll";
 const Banner = () => {
