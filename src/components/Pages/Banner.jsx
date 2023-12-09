@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Lottie from "lottie-react";
 import banner from "../../assets/images/photo/Untitled_design-removebg-preview.png";
 import Typewriter from "typewriter-effect";
 import { BsArrowDownCircle } from "react-icons/bs";
@@ -44,7 +43,7 @@ const Banner = () => {
           <div className="mt-5">
             <a
               href={Resume}
-              download="Yeakub Resume"
+              download="Munimul Resume"
               className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-purple-500"
             >
               <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
@@ -57,7 +56,6 @@ const Banner = () => {
         </div>
         <div className="md:p-14">
           <img src={banner} alt="logo" />
-          {/* <Lottie animationData={banner} loop={true} /> */}
         </div>
       </div>
       <div className="pb-20">
